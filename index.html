@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Portfolio
+        </title>
+        <!-- Box Icons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- CSS -->
+         <link rel="stylesheet" href="css.css">
+    </head>
+
+    <body>
+        <!-- header design -->
+         
+        <header class="header">
+            <a href="" class="logo">Portfolio</a>
+
+            <i class='bx bx-menu' id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Achievements</a>
+                <a href="#portfolio">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <!-- home section design -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello World!</h3>
+                <h1>Eric John M. Cuerdo</h1>
+                <h3>I am a <span>Programmer!</span></h3>
+                <p>Welcome to my World</p>
+                <div class="social-media">
+                    <a href="https://web.facebook.com/eeeeeerrrrrrrr/" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+                    <a href="https://x.com/" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.linkedin.com/in/eric-john-cuerdo-2a4b1b34b/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+                <a href="Curriculum-Vitae.docx" download class="btn">Download CV</a>
+            </div>
+
+            <div class="home-img">
+                <img src="Me.jpg" alt="">
+            </div>
+        </section>
+
+        <!-- About Me Page -->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="Me2.jpg" alt="">
+            </div>
+            <div class="about-content">
+                <input type="checkbox" name="" id="ch">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>An STI West Negros University Student</h3>
+                <p>A 2nd-Year Bachelor of Science in Computer Science in STI West Negros University Inc.</p>
+                <div class="hidden-content">
+                    <p>Before I came to STI West Negros University, I was once a humble STE Student from Ramon Torres National High School of Bago City. As a high schooler that came from STE, I grew in a competitive environment filled with smart students. Eventually, I was able to enter the National Research Competition along with my teammates.</p>
+                    <label for="ch">See Less</label>
+                </div>
+                <label for="ch" id="read-more-btn">Read More</label>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="heading">My <span>Achievements</span></h2>
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bxs-user-check'></i>
+                    <h3>Programmer of the Year</h3>
+                    <p>An award given to the programmer with the highest grades and most completed programs</p>
+                    <p class="read-more-text">
+                        I became the top of my class when I was in Senior High School. I graduated with High Honors, 0.5 points away from being Highest Honors. 
+                    </p>
+                    <span class="read-more-btn">Read More</span>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bxs-shield-plus' ></i>
+                    <h3>Deans Lister</h3>
+                    <p>Consistent High GWA since 1st Year, not getting any lower to 1.5 GWA</p>
+                    <p class="read-more-text">
+                       It is an award presented to students with high GWA, not getting any lower than 1.5, with a requirement of no 2.0 in subjects or below.
+                    </p>
+                    <span class="read-more-btn">Read More</span>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bxs-wrench' ></i>
+                    <h3>Luau Game Developer</h3>
+                    <p>Worked with roblox game studios that created succesful roblox games</p>
+                    <p class="read-more-text">
+                        I started my game developing journey on LUAU Programming language when I was 1st Year, It felt very similar to python.
+                    </p>
+                    <span class="read-more-btn">Read More</span>
+                        
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span>Project</span></h2>
+        
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="Portfolio 1.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Login and Registration with SQL Database</h4>
+                        <p class="read-more-text">
+                        A simple login and registration code with SQL Database
+                    </p>
+                    <span class="read-more-btn">Read More</span>
+                    </div>
+                </div>
+            
+
+                <div class="portfolio-box">
+                    <video src="Portfolio 2.mp4" controls></video>
+                    <div class="portfolio-layer">
+                        <h4>NPC Movement with Raycast</h4>
+                        <p class="read-more-text">
+                        A moving NPC using Pathfinding A.I in LUAU: It can jump, swimp, climb, and go around walls.
+                    </p>
+                    <span class="read-more-btn">Read More</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <video src="Portfolio 3.mp4" controls></video>
+                    <div class="portfolio-layer">
+                        <h4>Following NPC with Raycast</h4>
+                        <p class="read-more-text">
+                        A moving NPC using Pathfinding A.I in LUAU that follows the Player
+                    </p>
+                    <span class="read-more-btn">Read More</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="Portfolio 4.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>MVC Crud Application</h4>
+                        <p class="read-more-text">
+                        A Model-View-Controller (MVC) based website that can create accounts and posts with data base.
+                    </p>
+                    <span class="read-more-btn">Read More</span>
+                    </div>
+                </div>
+            
+
+                <div class="portfolio-box">
+                    <img src="Portfolio 5.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Identification Card Swiper</h4>
+                        <p class="read-more-text">
+                        I created a program for my previous school, similar to STI West Negros' ID swiper. It is still being used today.
+                    </p>
+                    <span class="read-more-btn">Read More</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="Portfolio 6.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Detailed Blender Modeling</h4>
+                        <p class="read-more-text">
+                        An Advanced Blender Modeling that creates detailed terrains such as rocky mountains, green forests, and beautiful sceneries.
+                    </p>
+                    <span class="read-more-btn">Read More</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="heading">
+                Contact <span>Me</span>
+            </h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea class="input-box" name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+        
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy: 2025 by Eric John | All Rights Reserved.</p>
+            </div>
+        </footer>
+
+        <!-- script -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!-- jss -->
+        <script src="js.js"></script>
+    </body>
+</html>
